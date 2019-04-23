@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="262dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:text="Berita Mercu"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/scrollView1"
+        android:layout_below="@+id/textView1"
+        android:text="Indonesia Tak Berkutik Lawan Thailand"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:text="(22/3/2019)"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/scrollView1"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="61dp"
+        android:text="Hanoi - Indonesia tak berkutik saat melawan Thailand di kualifikasi Piala Asia U-23 2020. Tak bisa keluar dari tekanan, Garuda Muda dihajar 0-4 oleh The War Elephants Dalam pertandingan di My Dinh Stadium, Jumat (22/3/2019), gagal mengembangkan permainan di babak pertama. Cuma ada satu tembakan tepat sasaran, itu tercipta menjelang jeda. Muhamad Luthfi Kamal yang menjadi eksekutor.Thailand, yang menguasai jalannya pertandingan, unggul berkat gol Shinnaphat Leeaoh pada menit ke-21. Pemain nomor punggung enam itu menceploskan bola ke gawang dengan sundulan.Rachmat Irianto melanggar Supachai Chaided di dalam kotak penalti pada menit ke-50. Wasit menunjuk titik putih. Supachai bisa menaklukkan Awan Setho untuk menggandakan keunggulan Thailand.Indra Sjafri melakukan pergantian pertama pada menit ke-52. Saddil Ramdani ditarik, Sani Rizki Fauzi dimasukkan."
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

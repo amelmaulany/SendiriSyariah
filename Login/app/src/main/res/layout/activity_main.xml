@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/app_margin_normal"
+        android:text="Login" />
+
+    <EditText
+        android:id="@+id/txt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_margin_normal"
+        android:layout_marginRight="@dimen/app_margin_normal"
+        android:layout_marginBottom="@dimen/app_margin_normal"
+        android:hint="username" />
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_margin_normal"
+        android:layout_marginRight="@dimen/app_margin_normal"
+        android:layout_marginBottom="@dimen/app_margin_normal"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        androdid:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/app_margin_normal"
+        android:layout_marginRight="@dimen/app_margin_normal"
+        android:layout_marginBottom="@dimen/app_margin_normal" />
+
+
+
+    </LinearLayout>
